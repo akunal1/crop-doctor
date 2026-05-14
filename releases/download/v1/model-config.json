@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14T00:00:00Z",
+  "models": [
+    {
+      "id": "leaf-doctor",
+      "name": "Leaf Doctor",
+      "category": "crop_analysis",
+      "description": "Multi-crop disease and pest detection for Cashew, Cassava, Maize, and Tomato. Identifies 22 classes including diseases, pests, and healthy states.",
+      "version": "1.0.0",
+      "sizeBytes": 12582912,
+      "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-doctor/crop_model.tflite",
+      "labelsUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-doctor/labels.json",
+      "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-doctor/metadata.json",
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-doctor/thumbnail.png",
+      "checksum": "sha256:placeholder_update_with_actual_hash",
+      "supportedCrops": ["Cashew", "Cassava", "Maize", "Tomato"],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 512
+      },
+      "enabled": true,
+      "releaseDate": "2026-05-14"
+    },
+    {
+      "id": "pest-detector",
+      "name": "Pest Detector",
+      "category": "pest_detection",
+      "description": "Specialized pest identification model. Detects common agricultural pests across multiple crops with high accuracy.",
+      "version": "1.0.0",
+      "sizeBytes": 8388608,
+      "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/pest-detector/model.tflite",
+      "labelsUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/pest-detector/labels.json",
+      "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/pest-detector/metadata.json",
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/pest-detector/thumbnail.png",
+      "checksum": "sha256:placeholder_update_with_actual_hash",
+      "supportedCrops": ["Rice", "Maize", "Wheat", "Cotton"],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 512
+      },
+      "enabled": true,
+      "releaseDate": "2026-05-14"
+    },
+    {
+      "id": "rice-analyzer",
+      "name": "Rice Crop Analyzer",
+      "category": "crop_analysis",
+      "description": "Comprehensive rice crop health analysis. Detects diseases, nutrient deficiencies, and growth stage assessment specific to rice cultivation.",
+      "version": "1.0.0",
+      "sizeBytes": 10485760,
+      "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/rice-analyzer/model.tflite",
+      "labelsUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/rice-analyzer/labels.json",
+      "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/rice-analyzer/metadata.json",
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/rice-analyzer/thumbnail.png",
+      "checksum": "sha256:placeholder_update_with_actual_hash",
+      "supportedCrops": ["Rice"],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 512
+      },
+      "enabled": true,
+      "releaseDate": "2026-05-14"
+    },
+    {
+      "id": "wheat-analyzer",
+      "name": "Wheat Crop Analyzer",
+      "category": "crop_analysis",
+      "description": "Specialized wheat disease and health analysis. Identifies rust, blight, and other wheat-specific conditions.",
+      "version": "1.0.0",
+      "sizeBytes": 9437184,
+      "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat-analyzer/model.tflite",
+      "labelsUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat-analyzer/labels.json",
+      "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat-analyzer/metadata.json",
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat-analyzer/thumbnail.png",
+      "checksum": "sha256:placeholder_update_with_actual_hash",
+      "supportedCrops": ["Wheat"],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 512
+      },
+      "enabled": true,
+      "releaseDate": "2026-05-14"
+    },
+    {
+      "id": "disease-detector",
+      "name": "Disease Detection",
+      "category": "disease_detection",
+      "description": "Broad-spectrum plant disease detection covering fungal, bacterial, and viral infections across multiple crop types.",
+      "version": "1.0.0",
+      "sizeBytes": 11534336,
+      "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/disease-detector/model.tflite",
+      "labelsUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/disease-detector/labels.json",
+      "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/disease-detector/metadata.json",
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/disease-detector/thumbnail.png",
+      "checksum": "sha256:placeholder_update_with_actual_hash",
+      "supportedCrops": ["Rice", "Maize", "Wheat", "Tomato", "Cashew", "Cassava"],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 768
+      },
+      "enabled": true,
+      "releaseDate": "2026-05-14"
+    },
+    {
+      "id": "leaf-health",
+      "name": "Leaf Health Analysis",
+      "category": "leaf_health",
+      "description": "General leaf health assessment including chlorosis, necrosis, wilting, and nutrient deficiency symptoms.",
+      "version": "1.0.0",
+      "sizeBytes": 7340032,
+      "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-health/model.tflite",
+      "labelsUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-health/labels.json",
+      "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-health/metadata.json",
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-health/thumbnail.png",
+      "checksum": "sha256:placeholder_update_with_actual_hash",
+      "supportedCrops": ["Rice", "Maize", "Wheat", "Tomato", "Cashew", "Cassava", "Cotton"],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 512
+      },
+      "enabled": true,
+      "releaseDate": "2026-05-14"
+    }
+  ]
+}
