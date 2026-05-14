@@ -1,0 +1,13 @@
+{
+  "inputShape": [224, 224, 3],
+  "outputClasses": 22,
+  "imageNormalization": {
+    "mean": 127.5,
+    "std": 127.5
+  },
+  "confidenceThreshold": 0.5,
+  "maxResults": 5,
+  "inputType": "image",
+  "modelTask": "classification",
+  "supportedFormats": ["jpg", "jpeg", "png"]
+}

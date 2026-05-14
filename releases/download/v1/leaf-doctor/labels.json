@@ -1,0 +1,180 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "name": "Cashew Anthracnose",
+      "crop": "Cashew",
+      "issue": "Anthracnose",
+      "type": "Disease",
+      "description": "A fungal disease causing dark, sunken lesions on leaves, twigs, and fruits. Spreads rapidly in humid conditions. Remove infected parts and apply copper-based fungicide."
+    },
+    {
+      "id": 1,
+      "name": "Cashew Gumosis",
+      "crop": "Cashew",
+      "issue": "Gumosis",
+      "type": "Disease",
+      "description": "Characterised by gum exudation from bark and branches, often caused by fungal or bacterial infection. Prune affected branches and apply wound sealant."
+    },
+    {
+      "id": 2,
+      "name": "Cashew Healthy",
+      "crop": "Cashew",
+      "issue": "Healthy",
+      "type": "Healthy",
+      "description": "No visible signs of disease or pest damage. The cashew plant appears to be in good health. Continue regular monitoring."
+    },
+    {
+      "id": 3,
+      "name": "Cashew Leaf Miner",
+      "crop": "Cashew",
+      "issue": "Leaf Miner",
+      "type": "Pest",
+      "description": "Larvae tunnel between leaf surfaces creating serpentine mines, reducing photosynthesis. Use neem-based sprays or introduce parasitic wasps as biological control."
+    },
+    {
+      "id": 4,
+      "name": "Cashew Red Rust",
+      "crop": "Cashew",
+      "issue": "Red Rust",
+      "type": "Disease",
+      "description": "Caused by algal infection (Cephaleuros), forming reddish-brown patches on leaves and stems. Improve air circulation and apply copper oxychloride."
+    },
+    {
+      "id": 5,
+      "name": "Cassava Bacterial Blight",
+      "crop": "Cassava",
+      "issue": "Bacterial Blight",
+      "type": "Disease",
+      "description": "Angular water-soaked leaf spots that turn brown, with wilting and stem dieback. Use disease-free planting material and resistant varieties. Remove infected plants."
+    },
+    {
+      "id": 6,
+      "name": "Cassava Brown Spot",
+      "crop": "Cassava",
+      "issue": "Brown Spot",
+      "type": "Disease",
+      "description": "Circular brown lesions with yellow halos on older leaves. Usually appears in mature plants. Maintain good field hygiene and use resistant cultivars."
+    },
+    {
+      "id": 7,
+      "name": "Cassava Green Mite",
+      "crop": "Cassava",
+      "issue": "Green Mite",
+      "type": "Pest",
+      "description": "Tiny green mites feed on leaf undersides causing chlorosis, leaf distortion, and defoliation. Introduce predatory mites or apply miticides during dry season."
+    },
+    {
+      "id": 8,
+      "name": "Cassava Healthy",
+      "crop": "Cassava",
+      "issue": "Healthy",
+      "type": "Healthy",
+      "description": "No visible signs of disease or pest damage. The cassava plant appears to be in good health. Continue regular monitoring."
+    },
+    {
+      "id": 9,
+      "name": "Cassava Mosaic",
+      "crop": "Cassava",
+      "issue": "Mosaic",
+      "type": "Disease",
+      "description": "Viral disease transmitted by whiteflies causing yellow-green mosaic patterns, leaf curling, and stunted growth. Use virus-free cuttings and resistant varieties. Control whitefly populations."
+    },
+    {
+      "id": 10,
+      "name": "Maize Fall Armyworm",
+      "crop": "Maize",
+      "issue": "Fall Armyworm",
+      "type": "Pest",
+      "description": "Larvae feed on leaves creating irregular window-pane damage and bore into the whorl. Apply Bt-based biopesticides early. Scout fields regularly during vegetative stage."
+    },
+    {
+      "id": 11,
+      "name": "Maize Grasshopper",
+      "crop": "Maize",
+      "issue": "Grasshopper",
+      "type": "Pest",
+      "description": "Grasshoppers chew leaf margins and can defoliate plants during outbreaks. Use bait traps, neem sprays, or targeted insecticides. Maintain field borders to reduce harborage."
+    },
+    {
+      "id": 12,
+      "name": "Maize Healthy",
+      "crop": "Maize",
+      "issue": "Healthy",
+      "type": "Healthy",
+      "description": "No visible signs of disease or pest damage. The maize plant appears to be in good health. Continue regular monitoring."
+    },
+    {
+      "id": 13,
+      "name": "Maize Leaf Beetle",
+      "crop": "Maize",
+      "issue": "Leaf Beetle",
+      "type": "Pest",
+      "description": "Adults scrape leaf tissue creating elongated feeding scars parallel to veins. Heavy infestations reduce photosynthesis. Apply contact insecticides if threshold is exceeded."
+    },
+    {
+      "id": 14,
+      "name": "Maize Leaf Blight",
+      "crop": "Maize",
+      "issue": "Leaf Blight",
+      "type": "Disease",
+      "description": "Long, elliptical grey-green lesions on leaves that expand and turn tan. Caused by Exserohilum turcicum. Use resistant hybrids and apply foliar fungicides at early infection."
+    },
+    {
+      "id": 15,
+      "name": "Maize Leaf Spot",
+      "crop": "Maize",
+      "issue": "Leaf Spot",
+      "type": "Disease",
+      "description": "Small, round to oval tan spots with dark borders on leaves. Reduce humidity through proper spacing. Apply fungicides if infection is severe during grain fill."
+    },
+    {
+      "id": 16,
+      "name": "Maize Streak Virus",
+      "crop": "Maize",
+      "issue": "Streak Virus",
+      "type": "Disease",
+      "description": "Transmitted by leafhoppers, causing narrow yellow streaks along leaf veins. Stunts plant growth and reduces yield. Plant resistant varieties and control leafhopper vectors."
+    },
+    {
+      "id": 17,
+      "name": "Tomato Healthy",
+      "crop": "Tomato",
+      "issue": "Healthy",
+      "type": "Healthy",
+      "description": "No visible signs of disease or pest damage. The tomato plant appears to be in good health. Continue regular monitoring."
+    },
+    {
+      "id": 18,
+      "name": "Tomato Leaf Blight",
+      "crop": "Tomato",
+      "issue": "Leaf Blight",
+      "type": "Disease",
+      "description": "Dark brown to black water-soaked lesions that spread rapidly in wet conditions. Can destroy foliage within days. Apply preventive fungicides and avoid overhead irrigation."
+    },
+    {
+      "id": 19,
+      "name": "Tomato Leaf Curl",
+      "crop": "Tomato",
+      "issue": "Leaf Curl",
+      "type": "Disease",
+      "description": "Viral disease spread by whiteflies causing upward curling and thickening of leaves, stunted growth, and reduced fruit set. Control whiteflies and remove infected plants early."
+    },
+    {
+      "id": 20,
+      "name": "Tomato Septoria Leaf Spot",
+      "crop": "Tomato",
+      "issue": "Septoria Leaf Spot",
+      "type": "Disease",
+      "description": "Numerous small circular spots with dark margins and grey centres on lower leaves. Progresses upward. Remove affected leaves, improve air flow, and apply fungicides."
+    },
+    {
+      "id": 21,
+      "name": "Tomato Verticillium Wilt",
+      "crop": "Tomato",
+      "issue": "Verticillium Wilt",
+      "type": "Disease",
+      "description": "Soil-borne fungus causing yellowing and wilting of lower leaves, often one-sided. Brown discoloration in stem vascular tissue. Use resistant varieties and practice crop rotation."
+    }
+  ]
+}
