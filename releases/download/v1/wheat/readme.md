@@ -1,0 +1,4 @@
+- Researched & Built the largest Wheat Disease Dataset with 14,000+ images, aiding in accurate disease diagnosis.
+- Developed a CNN-based model with 91% accuracy, further enhanced by integrating Random Forest and Decision Tree classifiers using symptom-based user input.
+- Created a real-time disease identification dashboard, reducing diagnosis time and cutting crop loss.
+- Leveraged AI to provide detailed disease insights and user feedback, refining diagnosis precision and enabling timely interventions.
