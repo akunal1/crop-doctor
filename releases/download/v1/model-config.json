@@ -43,6 +43,27 @@
       },
       "enabled": true,
       "releaseDate": "2026-05-14"
+    },
+    {
+      "id": "wheat-detector",
+      "name": "Wheat analyser",
+      "category": "wheat_detection",
+      "description": "Specialised whear crop issue identification model. Detects only wheat crops realetd issues with high accuracy.",
+      "version": "1.0.0",
+      "sizeBytes": 15000000,
+      "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat/wheat.tflite",
+      "labelsUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat/labels.json",
+      "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat/metadata.json",
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat/thumbnail.png",
+      "checksum": "sha256:placeholder_update_with_actual_hash",
+      "supportedCrops": ["All kinds of pests related to farming"],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 512
+      },
+      "enabled": true,
+      "releaseDate": "2026-05-14"
     }
   ]
 }
