@@ -77,7 +77,7 @@
       "description": "Advanced offline agricultural AI powered by Gemma Vision. Analyze crop images, detect issues, explain symptoms, estimate severity, and provide farmer-friendly recommendations.",
       "version": "1.0.0",
       "sizeBytes": 845000000,
-      "downloadUrl": "https://github.com/akunal1/crop-doctor/releases/download/v1/gemma/gemma-3-1b-it-Q4_K_M.gguf", 
+      "downloadUrl": "https://huggingface.co/lmstudio-community/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf?download=true", 
       "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/gemma/thumbnail.png",
       "checksum": "sha256:replace_with_actual_hash",
       "multimodalProjectorChecksum": "sha256:replace_with_actual_hash",
