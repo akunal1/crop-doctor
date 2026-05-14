@@ -1,12 +1,13 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "lastUpdated": "2026-05-14T00:00:00Z",
   "models": [
     {
       "id": "leaf-doctor",
       "name": "Leaf Doctor",
       "category": "crop_analysis",
-      "description": "Multi-crop disease and pest detection for Cashew, Cassava, Maize, and Tomato. Identifies 22 classes including diseases, pests, and healthy states.",
+      "modelType": "tflite",
+      "description": "Multi-crop disease and pest detection for Cashew, Cassava, Maize, and Tomato. Identifies diseases, pests, and healthy states.",
       "version": "1.0.0",
       "sizeBytes": 12582912,
       "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/leaf-doctor/crop_model.tflite",
@@ -27,7 +28,8 @@
       "id": "pest-detector",
       "name": "Pest Detector",
       "category": "pest_detection",
-      "description": "Specialised pest identification model. Detects common agricultural pests across multiple crops with high accuracy.",
+      "modelType": "tflite",
+      "description": "Specialised pest identification model.",
       "version": "1.0.0",
       "sizeBytes": 16388608,
       "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/pestDoctor/unified_pest_classifier_fp16.tflite",
@@ -46,9 +48,10 @@
     },
     {
       "id": "wheat-detector",
-      "name": "Wheat analyser",
+      "name": "Wheat Analyser",
       "category": "wheat_detection",
-      "description": "Specialised whear crop issue identification model. Detects only wheat crops realetd issues with high accuracy.",
+      "modelType": "tflite",
+      "description": "Specialised wheat crop issue identification model.",
       "version": "1.0.0",
       "sizeBytes": 15000000,
       "downloadUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat/wheat.tflite",
@@ -56,13 +59,58 @@
       "metadataUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat/metadata.json",
       "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/wheat/thumbnail.png",
       "checksum": "sha256:placeholder_update_with_actual_hash",
-      "supportedCrops": ["Only Wheat"],
+      "supportedCrops": ["Wheat"],
       "compatibility": {
         "minAppVersion": "1.0.0",
         "platforms": ["ios", "android"],
         "minRamMB": 512
       },
       "enabled": true,
+      "releaseDate": "2026-05-14"
+    },
+    {
+      "id": "gemma-ai",
+      "name": "AI Agronomist",
+      "category": "expert_ai",
+      "modelType": "gguf",
+      "subType": "vision_llm",
+      "description": "Advanced offline agricultural AI powered by Gemma Vision. Analyze crop images, detect issues, explain symptoms, estimate severity, and provide farmer-friendly recommendations.",
+      "version": "1.0.0",
+      "sizeBytes": 845000000,
+      "downloadUrl": "https://github.com/akunal1/crop-doctor/releases/download/v1/gemma/gemma-3-1b-it-Q4_K_M.gguf", 
+      "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/gemma/thumbnail.png",
+      "checksum": "sha256:replace_with_actual_hash",
+      "multimodalProjectorChecksum": "sha256:replace_with_actual_hash",
+      "supportedCrops": [
+        "Wheat",
+        "Tomato",
+        "Cashew",
+        "Cassava",
+        "General Crop Analysis"
+      ],
+      "compatibility": {
+        "minAppVersion": "1.0.0",
+        "platforms": ["ios", "android"],
+        "minRamMB": 4096,
+        "recommendedRamMB": 6144,
+        "minimumFreeStorageMB": 2000
+      },
+      "features": {
+        "supportsVision": true,
+        "supportsOffline": true,
+        "supportsChat": true,
+        "requiresManualDownload": true,
+        "lazyLoad": true
+      },
+      "inference": {
+        "engine": "llama.cpp",
+        "contextSize": 4096,
+        "temperature": 0.3,
+        "maxTokens": 512,
+        "topP": 0.9
+      },
+      "enabled": false,
+      "optional": true,
       "releaseDate": "2026-05-14"
     }
   ]
