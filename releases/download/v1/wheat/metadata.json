@@ -1,0 +1,48 @@
+{
+  "modelName": "wheat_disease_classifier",
+  "modelVersion": "1.0.0",
+  "modelTask": "classification",
+  "inputShape": [
+    255,
+    255,
+    3
+  ],
+  "inputType": "image",
+  "outputClasses": 15,
+  "imageNormalization": {
+    "mean": 127.5,
+    "std": 127.5
+  },
+  "confidenceThreshold": 0.65,
+  "maxResults": 5,
+  "supportedFormats": [
+    "jpg",
+    "jpeg",
+    "png"
+  ],
+  "classRanges": {
+    "pests": {
+      "startId": 0,
+      "endId": 11,
+      "count": 3,
+      "description": "Wheat pest categories"
+    },
+    "rust_diseases": {
+      "startId": 1,
+      "endId": 14,
+      "count": 3,
+      "description": "Wheat rust diseases"
+    },
+    "fungal_diseases": {
+      "startId": 3,
+      "endId": 13,
+      "count": 9,
+      "description": "Other fungal and bacterial wheat diseases"
+    }
+  },
+  "inferenceNotes": {
+    "preprocessing": "Resize image to 255x255 RGB and normalize with (pixel - 127.5) / 127.5",
+    "postprocessing": "Softmax output, return top-K predictions sorted by confidence",
+    "usage": "Run model once to get class ID 0-14. Match prediction with labels.json for disease or pest details."
+  }
+}
