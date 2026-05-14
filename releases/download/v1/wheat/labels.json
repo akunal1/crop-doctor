@@ -1,0 +1,124 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "name": "Aphid",
+      "crop": "Wheat",
+      "issue": "Aphid",
+      "type": "Pest",
+      "description": "Small sap-sucking insects that cluster on leaves and stems, causing yellowing, curling, and reduced growth. Severe infestations may reduce grain yield. Use neem oil, insecticidal soap, or aphid-specific insecticides."
+    },
+    {
+      "id": 1,
+      "name": "Black Rust / Stem Rust",
+      "crop": "Wheat",
+      "issue": "Stem Rust",
+      "type": "Disease",
+      "description": "A fungal disease causing reddish-brown to black elongated pustules on stems and leaves. Severe infections weaken plants and reduce yield. Use resistant varieties and fungicides when necessary."
+    },
+    {
+      "id": 2,
+      "name": "Brown Rust / Leaf Rust",
+      "crop": "Wheat",
+      "issue": "Leaf Rust",
+      "type": "Disease",
+      "description": "Fungal disease producing orange-brown pustules mainly on leaf surfaces. Reduces photosynthesis and grain production. Apply fungicides and grow resistant wheat varieties."
+    },
+    {
+      "id": 3,
+      "name": "Common Root Rot",
+      "crop": "Wheat",
+      "issue": "Root Rot",
+      "type": "Disease",
+      "description": "A soil-borne fungal disease causing dark lesions on roots and stem bases, leading to weak growth and poor nutrient uptake. Improve drainage and rotate crops."
+    },
+    {
+      "id": 4,
+      "name": "Fusarium Head Blight / Scab",
+      "crop": "Wheat",
+      "issue": "Fusarium Head Blight",
+      "type": "Disease",
+      "description": "A fungal infection affecting wheat heads, causing bleaching and shriveled grains. Can produce harmful mycotoxins. Use resistant varieties and apply fungicides during flowering."
+    },
+    {
+      "id": 5,
+      "name": "Helminthosporium Leaf Blight / Leaf Blight",
+      "crop": "Wheat",
+      "issue": "Leaf Blight",
+      "type": "Disease",
+      "description": "Causes elongated brown lesions on leaves, reducing photosynthesis and plant vigor. More common in warm and humid conditions. Apply fungicides and maintain field sanitation."
+    },
+    {
+      "id": 6,
+      "name": "Mite",
+      "crop": "Wheat",
+      "issue": "Mite Infestation",
+      "type": "Pest",
+      "description": "Microscopic pests feeding on plant sap, causing yellowing, curling, and stunted growth. Heavy infestations may significantly reduce crop health. Use miticides or biological predators."
+    },
+    {
+      "id": 7,
+      "name": "Powdery Mildew",
+      "crop": "Wheat",
+      "issue": "Powdery Mildew",
+      "type": "Disease",
+      "description": "Fungal disease appearing as white powdery patches on leaves and stems. Can reduce photosynthesis and yield. Improve airflow and apply fungicides if needed."
+    },
+    {
+      "id": 8,
+      "name": "Septoria Leaf Blotch",
+      "crop": "Wheat",
+      "issue": "Septoria Leaf Blotch",
+      "type": "Disease",
+      "description": "Causes irregular brown lesions with black specks on leaves, reducing green leaf area and grain filling. Crop rotation and fungicides help control spread."
+    },
+    {
+      "id": 9,
+      "name": "Smut (Loose, Flag)",
+      "crop": "Wheat",
+      "issue": "Smut",
+      "type": "Disease",
+      "description": "Fungal disease where grain heads are replaced by black powdery spores. Often seed-borne. Use certified treated seeds and resistant cultivars."
+    },
+    {
+      "id": 10,
+      "name": "Spot Blotch",
+      "crop": "Wheat",
+      "issue": "Spot Blotch",
+      "type": "Disease",
+      "description": "Fungal disease producing oval dark brown spots on leaves, especially under warm humid conditions. Can significantly reduce yield. Apply fungicides and maintain healthy crop nutrition."
+    },
+    {
+      "id": 11,
+      "name": "Stem Fly",
+      "crop": "Wheat",
+      "issue": "Stem Fly",
+      "type": "Pest",
+      "description": "Larvae bore into wheat stems causing dead hearts, stunted growth, and poor tillering. Use resistant varieties and insecticides where infestation is severe."
+    },
+    {
+      "id": 12,
+      "name": "Tan Spot",
+      "crop": "Wheat",
+      "issue": "Tan Spot",
+      "type": "Disease",
+      "description": "Fungal disease causing tan-colored lesions with yellow halos on leaves. Reduces photosynthesis and crop yield. Crop rotation and fungicide sprays are effective management strategies."
+    },
+    {
+      "id": 13,
+      "name": "Wheat Blast",
+      "crop": "Wheat",
+      "issue": "Wheat Blast",
+      "type": "Disease",
+      "description": "A highly destructive fungal disease causing bleaching of spikes and shriveled grains. Spreads rapidly under humid conditions. Early fungicide application and resistant cultivars are essential."
+    },
+    {
+      "id": 14,
+      "name": "Yellow Rust / Stripe Rust",
+      "crop": "Wheat",
+      "issue": "Stripe Rust",
+      "type": "Disease",
+      "description": "Fungal disease producing yellow-orange stripe-like pustules on leaves. Thrives in cool, moist weather and reduces yield significantly. Use resistant varieties and fungicides."
+    }
+  ]
+}
