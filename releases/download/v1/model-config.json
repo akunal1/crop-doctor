@@ -49,7 +49,7 @@
     {
       "id": "wheat-detector",
       "name": "Wheat Analyser",
-      "category": "wheat_detection",
+      "category": "crop_analysis",
       "modelType": "tflite",
       "description": "Specialised wheat crop issue identification model.",
       "version": "1.0.0",
@@ -77,17 +77,11 @@
       "description": "Advanced offline agricultural AI powered by Gemma Vision. Analyze crop images, detect issues, explain symptoms, estimate severity, and provide farmer-friendly recommendations.",
       "version": "1.0.0",
       "sizeBytes": 845000000,
-      "downloadUrl": "https://huggingface.co/lmstudio-community/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf?download=true", 
+      "downloadUrl": "https://huggingface.co/lmstudio-community/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf?download=true",
       "thumbnailUrl": "https://raw.githubusercontent.com/akunal1/crop-doctor/main/releases/download/v1/gemma/thumbnail.png",
       "checksum": "sha256:replace_with_actual_hash",
       "multimodalProjectorChecksum": "sha256:replace_with_actual_hash",
-      "supportedCrops": [
-        "Wheat",
-        "Tomato",
-        "Cashew",
-        "Cassava",
-        "General Crop Analysis"
-      ],
+      "supportedCrops": ["Wheat", "Tomato", "Cashew", "Cassava", "General Crop Analysis"],
       "compatibility": {
         "minAppVersion": "1.0.0",
         "platforms": ["ios", "android"],
@@ -109,7 +103,7 @@
         "maxTokens": 512,
         "topP": 0.9
       },
-      "enabled": false,
+      "enabled": true,
       "optional": true,
       "releaseDate": "2026-05-14"
     }
